@@ -11,3 +11,12 @@ public class Tienda {
     }
 }
 
+    public void registrarProducto(String nombre) {
+        if (totalProductos < 10) {
+            productos[totalProductos] = nombre;
+            totalProductos++;
+            System.out.println("Producto registrado: " + nombre); 
+        } else {
+            System.out.println("Catálogo lleno.");
+        }
+    }
