@@ -14,7 +14,7 @@ public class Producto {
         this.categoria = categoria; 
     }
 
-    public void mostarInfo(){
+    public void mostrarInfo(){
         System.out.println("Producto: " + nombre);
         System.out.println("Categoria: " + categoria);
         System.out.println("Precio: " + precio);
